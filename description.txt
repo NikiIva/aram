@@ -1,0 +1,13 @@
+aram.csv
+Каждая запись представляет собой информацию о команде.
+gameId (String) - id игры
+server (String) - сервер, [RU - Россия, NA - северная америка]
+win (bool) - победа в матче
+Aatrox..Zyra (bool) - персонажи, True - участвовали в команде, False - иначе
+start (int) - время начало матча (timestamp в милисекундах)
+end (int) - время начало матча (timestamp в милисекундах)
+
+tags.csv 
+Запись - инфморация о тегах, присвоенных чемпиону
+name (String) - имя чемпиона
+Fighter,Assassin,Marksman,Tank,Mage,Support (bool) - наличие тега 
